@@ -2,7 +2,7 @@
 
 ## Readme
 
-This is a cli app that scans given directory for files with unique hash contents and outputs the paths,
+This is a cli app that scans given directory for files with unique hash contents and outputs the paths to "canonical" files,
 ready to use with some specialized file manipulation utilities such as cp or mv.
 
 See the excerpt from the `--help` option below:
