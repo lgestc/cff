@@ -13,6 +13,7 @@ USAGE:
 
 FLAGS:
     -h, --help         Prints help information
+    -p, --progress     Display progress
     -r, --recursive    Scan directories recursively (false by default)
     -V, --version      Prints version information
 
