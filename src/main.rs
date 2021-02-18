@@ -40,7 +40,7 @@ fn main() {
     traverse_directory(&PathBuf::from(path), &mut uniques, recursive, progress);
 
     if progress {
-        println!();
+        print!("\r");
     }
 
     render_output(&uniques);
